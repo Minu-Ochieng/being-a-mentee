@@ -1,0 +1,31 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+.sign-up-container {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+input {
+  width: 500px;
+  height: 30px;
+  border: 2px solid purple;
+}
+h1 {
+  color: #bd86d2;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+body {
+  font-size: 30px;
+  background-color: #d3c2cf;
+}
+.form-container{
+    margin-left: 20%;
+}

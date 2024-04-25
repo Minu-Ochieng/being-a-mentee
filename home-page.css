@@ -1,0 +1,38 @@
+.akirachix-img {
+  width: 560px;
+}
+
+.landing-page {
+  display: flex;
+}
+.navbar {
+  padding: 32px;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  padding: 16px;
+  font-size: 30px;
+}
+.logo-image {
+  width: 70px;
+}
+.akirachix-history {
+  padding: 32px;
+  border-radius: 13px;
+  border: 2px solid palevioletred;
+  width: 280px;
+}
+.landing-page-img {
+  margin-left: 30%;
+}
+.landing-page-content {
+  margin-left: 15%;
+}
+body {
+  background-color: #bd86d2;
+}
