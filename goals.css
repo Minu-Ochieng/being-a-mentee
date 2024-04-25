@@ -1,0 +1,33 @@
+body {
+  background-color: #bd86d2;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  padding: 16px;
+  font-size: 30px;
+}
+.goals{
+  background-color: #fff;
+  padding: 32px;
+  width: 500px;
+  margin-left: 40%;
+  font-size: 30px;
+  border: 2px solid #533d6b;
+  border-radius: 30px;
+}
+input {
+  font-size: Max(16px, 1em);
+  background-color: #fff;
+  border: 2px solid;
+  padding: 16px;
+  gap: 4%;
+}
+.goal{
+  padding:16px;
+}
+

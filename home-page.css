@@ -1,5 +1,6 @@
 .akirachix-img {
-  width: 560px;
+  width: 760px;
+  margin-right: 10%;
 }
 
 .landing-page {
@@ -14,7 +15,7 @@
 }
 a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   padding: 16px;
   font-size: 30px;
 }
@@ -24,15 +25,24 @@ a {
 .akirachix-history {
   padding: 32px;
   border-radius: 13px;
-  border: 2px solid palevioletred;
-  width: 280px;
+  width: 580px;
+  font-size: 30px;
+  color: antiquewhite;
+
 }
-.landing-page-img {
-  margin-left: 30%;
-}
+
 .landing-page-content {
   margin-left: 15%;
+  padding: 32px;
 }
 body {
   background-color: #bd86d2;
+}
+h1{
+  font-size:60px;
+  color:#fff
+}
+h3{
+  font-size:30px;
+  color:#fff
 }
