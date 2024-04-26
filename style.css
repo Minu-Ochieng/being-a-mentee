@@ -1,19 +1,31 @@
 form {
   display: flex;
   flex-direction: column;
+padding-left: 370px;
 }
 .sign-up-container {
   display: flex;
   flex-direction: column;
 }
 .container {
-  margin-left: 25%;
-  margin-right: 25%;
+  padding-left:300px ;
+  padding-right:300px ;
 }
 input {
   width: 500px;
   height: 30px;
   border: 2px solid purple;
+}
+.submit {
+  margin: 3%;
+  padding:  8px;
+  background-color: #673147;
+  color: #fff;
+  font-size: 18px;
+ 
+}
+input .submit{
+  padding-right: 200px;
 }
 h1 {
   color: #bd86d2;
@@ -26,13 +38,19 @@ body {
   font-size: 30px;
   background-color: #d3c2cf;
 }
-.form-container{
-    margin-left: 20%;
+.form-container {
+  margin-left: 20%;
 }
-.submit{
-  background-color:purple ;
+
+a {
+  color: #fff;
 }
-@media only screen and (min-width: 280px) and (max-width: 600px){
+.login {
+  text-align: center;
+  margin-right: 270px;
+
+}
+@media only screen and (min-width: 280px) and (max-width: 600px) {
   input {
     width: 250px;
     height: 30px;

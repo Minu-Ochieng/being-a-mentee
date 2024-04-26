@@ -1,6 +1,6 @@
 .akirachix-img {
-  width: 760px;
-  margin-right: 10%;
+  width: 560px;
+  padding-top: 130px;
 }
 
 .landing-page {
@@ -15,35 +15,41 @@
 }
 a {
   text-decoration: none;
-  color: #fff;
+  color: purple;
   padding: 16px;
   font-size: 30px;
 }
 .logo-image {
-  width: 70px;
+  width: 90px;
+  background: none;
+}
+.page-logo {
+  display: flex;
+}
+.image-name {
+  font-size: 30px;
+  padding: 30px;
 }
 .akirachix-history {
   padding: 32px;
   border-radius: 13px;
   width: 580px;
   font-size: 30px;
-  color: antiquewhite;
 }
 
 .landing-page-content {
-  margin-left: 15%;
-  padding: 32px;
+  padding-left: 280px;
 }
 body {
-  background-color: #bd86d2;
+  background-color: #EEADCE;
 }
 h1 {
   font-size: 60px;
-  color: #fff;
+  text-align: center;
 }
 h3 {
   font-size: 30px;
-  color: #fff;
+  color: purple;
 }
 @media only screen and (min-width: 280px) and (max-width: 600px) {
   .landing-page {
@@ -86,8 +92,8 @@ h3 {
     flex-direction: column;
   }
 }
-@media only screen and (min-width: 600px) and (max-width: 601px) {
+/* @media only screen and (min-width: 600px) and (max-width: 601px) {
   .landing-page {
-    
+
   }
-}
+} */

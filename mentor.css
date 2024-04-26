@@ -1,5 +1,5 @@
 body {
-  background-color: #bd86d2;
+  background-color: #eeadce;
 }
 .navbar-container {
   display: flex;
@@ -7,26 +7,38 @@ body {
 }
 a {
   text-decoration: none;
-  color: #fff;
+  color: purple;
   padding: 16px;
   font-size: 30px;
 }
-.mentor-img {
-  margin-left: 30%;
-  border-radius: 50%;
+.logo-image {
+  width: 90px;
+  background: none;
+}
+.page-logo {
+  display: flex;
+}
+.image-name {
+  font-size: 30px;
+  padding: 30px;
+}
+.navbar {
+  padding: 32px;
 }
 .landing-page {
   display: flex;
 }
 .landing-page-content {
-  margin-left: 15%;
-  font-size: 30px;
+  padding-left: 40px;
+  font-size: 20px;
 }
-label {
-  color: #fff;
+.mentor-details{
+  padding: 8px;
 }
-.name {
-  color: #fff;
+.mentor-img {
+  object-fit: contain;
+  padding-top: 30px;
+  padding-left: 300px;
 }
 
 @media only screen and (min-width: 280px) and (max-width: 600px) {
