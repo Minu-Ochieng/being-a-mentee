@@ -28,7 +28,6 @@ a {
   width: 580px;
   font-size: 30px;
   color: antiquewhite;
-
 }
 
 .landing-page-content {
@@ -38,11 +37,57 @@ a {
 body {
   background-color: #bd86d2;
 }
-h1{
-  font-size:60px;
-  color:#fff
+h1 {
+  font-size: 60px;
+  color: #fff;
 }
-h3{
-  font-size:30px;
-  color:#fff
+h3 {
+  font-size: 30px;
+  color: #fff;
+}
+@media only screen and (min-width: 280px) and (max-width: 600px) {
+  .landing-page {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+  }
+  a {
+    padding: 8px;
+    font-size: 20px;
+  }
+  .logo-image {
+    width: 50px;
+  }
+  .akirachix-history {
+    padding: 16px;
+    border-radius: 13px;
+    width: 200px;
+    font-size: 20px;
+    color: antiquewhite;
+  }
+  h1 {
+    font-size: 30px;
+    color: #fff;
+  }
+  h3 {
+    font-size: 15px;
+    color: #fff;
+    margin-right: 10%;
+  }
+  .akirachix-img {
+    width: 300px;
+  }
+  .landing-page-content {
+    margin-left: -5;
+    padding: 8px;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 601px) {
+  .landing-page {
+    
+  }
 }
