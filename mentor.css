@@ -30,15 +30,17 @@ a {
 }
 .landing-page-content {
   padding-left: 40px;
-  font-size: 20px;
+  font-size: 60px;
 }
-.mentor-details{
-  padding: 8px;
+.mentor-details {
+  padding: 78px;
+  font-size: 25px;
 }
 .mentor-img {
   object-fit: contain;
   padding-top: 30px;
-  padding-left: 300px;
+  width: 700px;
+  padding-left: 105px;
 }
 
 @media only screen and (min-width: 280px) and (max-width: 600px) {
@@ -46,51 +48,76 @@ a {
     display: block;
   }
   .mentor-img {
-    margin-left: 5%;
-    border-radius: 50%;
     width: 300px;
+    padding-left: 0px;
   }
   .navbar {
     display: flex;
     flex-direction: column;
-    margin-right: 15%;
   }
   a {
     padding: 8px;
-    font-size: 8px;
+    font-size: 25px;
   }
   .landing-page-content {
-    margin-left: 10%;
     font-size: 20px;
   }
   .logo-image {
-    width: 50px;
+    width: 90px;
+  }
+  .navbar-container {
+    display: block;
   }
 }
 @media only screen and (min-width: 601px) and (max-width: 900px) {
   .mentor-img {
-    margin-left: 5%;
-    border-radius: 50%;
     width: 300px;
   }
   .navbar {
     display: flex;
-    margin-right: 15%;
   }
   a {
     text-decoration: none;
-    color: #fff;
+    color: purple;
     padding: 16px;
-    font-size: 20px;
+    font-size: 18px;
   }
-  .landing-page-content {
-    margin-left: 10%;
-    font-size: 20px;
-  }
+
   .logo-image {
     width: 50px;
   }
   .landing-page {
     display: flex;
+  }
+  .image-name {
+    font-size: 20px;
+    padding: 16px;
+  }
+  .navbar-container {
+    justify-content: space-between;
+  }
+  .mentor-details {
+    padding: 8px;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1400px) {
+  .mentor-img {
+    width: 470px;
+  }
+  .landing-page-content {
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  a {
+    font-size: 20px;
+  }
+  .image-name {
+    font-size: 20px;
+    padding: 30px;
+  }
+  .mentor-details {
+    font-size: 18px;
+    padding: 0px;
   }
 }

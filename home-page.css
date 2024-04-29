@@ -41,7 +41,7 @@ a {
   padding-left: 280px;
 }
 body {
-  background-color: #EEADCE;
+  background-color: #eeadce;
 }
 h1 {
   font-size: 60px;
@@ -64,6 +64,11 @@ h3 {
   .logo-image {
     width: 50px;
   }
+  .page-logo {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+  }
   .akirachix-history {
     padding: 16px;
     border-radius: 13px;
@@ -72,28 +77,57 @@ h3 {
     color: antiquewhite;
   }
   h1 {
-    font-size: 30px;
-    color: #fff;
+    font-size: 18px;
   }
   h3 {
     font-size: 15px;
-    color: #fff;
-    margin-right: 10%;
   }
   .akirachix-img {
     width: 300px;
   }
   .landing-page-content {
-    margin-left: -5;
+    font-size: 18px;
     padding: 8px;
+    display: flex;
+    flex-direction: column;
   }
   .navbar {
     display: flex;
     flex-direction: column;
   }
-}
-/* @media only screen and (min-width: 600px) and (max-width: 601px) {
-  .landing-page {
-
+  .navbar-container {
+    display: flex;
+    flex-direction: column;
   }
-} */
+
+  .image-name {
+    font-size: 20px;
+    padding: 0px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 980px) {
+  .landing-page {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 980px) and (max-width: 1280px) {
+  .landing-page {
+    display: flex;
+    flex-direction: column;
+  }
+  .akirachix-img {
+    width: 500px;
+    padding-left: 370px;
+  }
+  a {
+    font-size: 20px;
+  }
+  .image-name {
+    font-size: 20px;
+    padding: 30px;
+  }
+  .landing-page-content {
+    font-size: 18px;
+  }
+}

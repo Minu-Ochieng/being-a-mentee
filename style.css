@@ -1,15 +1,16 @@
 form {
   display: flex;
   flex-direction: column;
-padding-left: 370px;
+  padding-left: 370px;
+
 }
 .sign-up-container {
   display: flex;
   flex-direction: column;
 }
 .container {
-  padding-left:300px ;
-  padding-right:300px ;
+  padding-left: 300px;
+  padding-right: 300px;
 }
 input {
   width: 500px;
@@ -17,15 +18,16 @@ input {
   border: 2px solid purple;
 }
 .submit {
-  margin: 3%;
-  padding:  8px;
+  border: none;
+  padding: 8px;
   background-color: #673147;
   color: #fff;
   font-size: 18px;
- 
+  border-radius: 34px;
 }
-input .submit{
-  padding-right: 200px;
+input .submit {
+  padding-left: 50px;
+  border-radius: 34px;
 }
 h1 {
   color: #bd86d2;
@@ -39,21 +41,31 @@ body {
   background-color: #d3c2cf;
 }
 .form-container {
-  margin-left: 20%;
+  padding-left: 500px;
 }
 
 a {
   color: #fff;
 }
-.login {
-  text-align: center;
-  margin-right: 270px;
-
+.logo-image {
+  width: 90px;
+  background: none;
+}
+.page-logo {
+  display: flex;
+}
+::placeholder {
+  font-size: 18px;
 }
 @media only screen and (min-width: 280px) and (max-width: 600px) {
   input {
     width: 250px;
     height: 30px;
     border: 2px solid purple;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
   }
 }

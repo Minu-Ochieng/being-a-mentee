@@ -1,5 +1,5 @@
 body {
-  background-color: #bd86d2;
+  background-color: #eeadce;
 }
 .navbar-container {
   display: flex;
@@ -7,12 +7,11 @@ body {
 }
 a {
   text-decoration: none;
-  color: #fff;
+  color: purple;
   padding: 16px;
   font-size: 30px;
 }
 .goals {
-  background-color: #fff;
   padding: 32px;
   width: 500px;
   margin-left: 40%;
@@ -32,11 +31,21 @@ input {
 }
 h2 {
   text-align: center;
-  background-color: #fff;
   width: 150px;
   margin-left: 50%;
 }
-@media only screen and  (min-width: 280px) and (max-width: 600px) {
+.logo-image {
+  width: 90px;
+  background: none;
+}
+.page-logo {
+  display: flex;
+}
+.image-name {
+  font-size: 30px;
+  padding: 30px;
+}
+@media only screen and (min-width: 280px) and (max-width: 600px) {
   .navbar-container {
     display: flex;
     flex-direction: column;
@@ -70,17 +79,14 @@ h2 {
     width: 230px;
     margin-left: 10%;
     font-size: 20px;
-    
   }
-  .logo-image{
+  .logo-image {
     width: 70px;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 900px){
-  
+@media only screen and (min-width: 601px) and (max-width: 900px) {
   .navbar {
     display: flex;
-   
   }
   a {
     font-size: 18px;
@@ -106,9 +112,32 @@ h2 {
     width: 430px;
     margin-left: 10%;
     font-size: 20px;
-    
   }
-  .logo-image{
+  .logo-image {
     width: 70px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .landing-page-content {
+    padding-right: 410px;
+  }
+  h2 {
+    text-align: center;
+    background-color: #fff;
+    width: 150px;
+    padding-right: 510px;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1400px) {
+  a {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .image-name {
+    font-size: 20px;
+    padding: 30px;
+  }
+  .landing-page-content {
+    padding-right: 410px;
   }
 }
