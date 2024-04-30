@@ -2,7 +2,6 @@ form {
   display: flex;
   flex-direction: column;
   padding-left: 370px;
-
 }
 .sign-up-container {
   display: flex;
@@ -67,5 +66,9 @@ a {
     display: flex;
     flex-direction: column;
     padding-left: 0px;
+  }
+  .container {
+    padding: 0px;
+    font-size: 20px;
   }
 }

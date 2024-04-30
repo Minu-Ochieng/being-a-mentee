@@ -49,8 +49,51 @@ a {
 }
 @media only screen and (min-width: 280px) and (max-width: 600px) {
   input {
-    width: 250px;
+    width: 200px;
     height: 30px;
     border: 2px solid purple;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  form{
+    padding-left: 1px;
+  }
+  .image-name{
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px){
+  input {
+    width: 300px;
+    height: 30px;
+    border: 2px solid purple;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  form{
+    padding-left: 1px;
+  }
+  .image-name{
+    padding-top: 30px;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1400px){
+  input {
+    width: 400px;
+    height: 30px;
+    border: 2px solid purple;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  form{
+    padding-left: 1px;
+  }
+  .image-name{
+    padding-top: 30px;
+    font-size: 20px;
   }
 }
