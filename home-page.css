@@ -130,4 +130,11 @@ h3 {
   .landing-page-content {
     font-size: 18px;
   }
+  .landing-page-content {
+    padding-left: 223px;
+  }
+  h1 {
+    font-size: 36px;
+    padding-left: 148px;
+  }
 }

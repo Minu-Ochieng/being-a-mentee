@@ -1,0 +1,16 @@
+.trevor{
+    padding-left: 380px;
+}
+.page-content{
+    padding: 42px;
+    font-size: 30px;
+}
+@media only screen and (min-width: 280px) and (max-width: 600px) {
+    .trevor{
+        padding-left: 10px;
+    }
+    .page-content{
+        padding: 12px;
+    
+    }
+}

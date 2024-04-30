@@ -94,7 +94,7 @@ h2 {
   }
   h2 {
     text-align: center;
-    background-color: #fff;
+
     width: 150px;
     margin-left: 30%;
   }
@@ -119,11 +119,11 @@ h2 {
 }
 @media only screen and (min-width: 601px) and (max-width: 900px) {
   .landing-page-content {
-    padding-right: 410px;
+    padding-left: 53px;
   }
   h2 {
     text-align: center;
-    background-color: #fff;
+
     width: 150px;
     padding-right: 510px;
   }
@@ -135,9 +135,17 @@ h2 {
   }
   .image-name {
     font-size: 20px;
-    padding: 30px;
+    padding: 10px;
   }
   .landing-page-content {
     padding-right: 410px;
+  }
+  .navbar {
+    padding-right: 210px;
+  }
+  .goals {
+    padding-left: 10px;
+    font-size: 30px;
+    border-radius: 30px;
   }
 }
