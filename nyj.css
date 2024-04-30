@@ -1,5 +1,5 @@
 .trevor {
-  margin-left: 800px;
+  margin-left: 828px;
 }
 .page-content {
   padding: 42px;
@@ -10,8 +10,9 @@
   color: #fff;
 }
 h4 {
-  text-align: center;
+  padding-left: 20px;
   font-size: 30px;
+  text-align: center;
 }
 
 @media only screen and (min-width: 280px) and (max-width: 600px) {
